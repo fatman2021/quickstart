@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+ <meta charset="utf-8" />
+
+  <title>Bodhi Brzi Vodič- Instaliranje Programa</title>
+
+	<script src="../QuickStart_files/modernizr.js"></script><!--[if lt IE 9]><script src="../QuickStart_files/html5shiv/dist/html5shiv.js"></script><![endif]-->
+
+  <link href="../QuickStart_files/qs.css" rel="stylesheet" type="text/css" media="screen" /><!--[if IE]><link href="../QuickStart_files/ie.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->  
+  <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png" />
+
+</head>
+<body>
+
+<header class="gradient">
+		<a class="img"  href="http://www.bodhilinux.com/" target="_blank"><img class="navbodhi" src="../images/bodhileaf.png" alt="(Bodhi Linux Logo)" /></a>
+		<a class="img"  href="http://www.enlightenment.org" target="_blank"><img class="nave17" src="../images/elogo.png" alt="(e17 Logo)" /></a>
+		<nav>
+			<ul id="nav" class="navonlowwidth">
+				<li class="qsindex"><a class="mobile" target="_parent"  href="index.html">BrziPočetak Index</a><a class="nav" target="_parent"  href="index.html">BrziPočetak Index</a>
+
+				</li>
+				<li><a class="mobile" target="_parent"  href="enlightenment.html">Enlightenment</a><a class="nav" target="_parent"  href="#">Početak</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="internet.html">Povezivanje na internet</a></li>
+						<li><a class="dropdown" target="_parent"  href="software.html">Instaliranje programa</a></li>
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="getting_started.html">Početak</a><a class="nav" target="_parent"  href="#">Enlightenment</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="e17.html">Osnove E17</a></li>
+						<li><a class="dropdown" target="_parent"  href="everything.html">Pokreni SVE(Run Everything)</a></li>
+						<li><a class="dropdown" target="_parent"  href="../../e17guide/e17guideEN/index.html">Bodhi Vodič za Enlightenment</a></li>
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="appendix.html">Znak štampara</a><a class="nav" target="_parent"  href="#">Dodatne Informacije</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="quickfaq.html">Često Postavljana Pitanja</a></li>
+						<li><a class="dropdown" target="_parent"  href="software_requests.html">Najčešće traženi programi</a></li>
+						<li><a class="dropdown" target="_parent"  href="resources.html">Resursi</a></li>
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="moreinfo.html">Dodatne Informacije</a><a class="nav" target="_parent"  href="appendix.html">Znak štampara</a>
+
+				</li>
+			</ul>
+		</nav>
+</header>
+
+
+
+<div class="body">
+
+
+<!-- Header -->
+<div class="header">
+
+	<a class="img" href="index.html"><img src="../images/bodhilinux.png" alt="(Bodhi Linux Logo)" class="bodhiheader floatr imageonlowwidth" /></a>
+
+	<div class="h1"><h1>Instaliranje Programa</h1></div>
+
+	<br />
+
+	<hr />
+
+</div>
+<!-- End of Header -->
+
+<!-- Body -->
+<div class="content">
+	
+<p class="underheader">
+[kliknite na bilo koju sliku za uvećanje]
+</p>
+
+<div class="contentcontainer ninetywidth center">
+<p>U većini slučajeva, bilo bi dobro imate uspostavljenu internet konekciju kako bi instalirali programe u <strong>Bodhi Linux-u</strong>.<br /><br />
+Molimo vas da pratite ovaj link ako vam treba pomoć za
+<a class="normal" href="internet.html">Povezivanje na Internet</a>.</p>
+</div>
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Ažuriranje sistema(Updating System)</h2>
+<p>Prva stvar koju treba da uradite nakon uspostavljanja internet konekcije je da ažurirate(update) sistem.<br /><br /> Postoji više načina kako ovo da uradite, ali najjednostavnije se to može postići otvaranjem aplikacije Terminology, koja se nalazi na sledećoj lokaciji <span class="smalltext">Main Menu>Applications>Accessories</span>, 
+i pokretanjem sledećih komandi:<br /><br />
+<span class="greentext boldtext largelh"><code>sudo apt-get update && sudo apt-get -y dist-upgrade</code></span><br /><br />
+<span class="smallertext"><code>
+Primedba:</code>&nbsp;ove komande se oslanjaju na <a class="normal" href="#apt-get">apt-get</a> komandne-linije alatu (terminal) i može biti izvršena kada god želite da ažurirate vaš sistem(programe & sve ostalo) na najnovije verzije.</span></p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="green ninetywidth center">
+<h2>Bodhi Linux AppCenter</h2>
+<a class="img normalpicture" href="../images/appcenter.png">
+	<img src="../images/appcenter.png" alt="(Bodhi Appcenter Website)" class="fiftywidth center changeonlowwidth" />
+</a>
+<p class="clear"><strong>Bodhi Linux</strong> tim je kreirao <strong>AppCenter</strong>
+kao vrlo brz i jednostavan način za instalaciju najčešćih programa.
+U <strong>AppCenter-u</strong> nećete naći svaki program koji <em>možete</em> da instalirate u <strong>BodhiLinux-u</strong>, ali <em>ćete naći</em> ono što mi smatramo da su "najbolji" programi za svaku pojedinačnu kategoriju. </p>
+<p> <strong>Bodhi Linux AppCenter</strong> je dizajniran da najbolje radi sa 
+<strong>Midori-jem</strong>, standardnim(default) web browser-om u Bodhi-ju. Takođe obezbeđuje nekoliko setova programa(ili meta-paketa) koji sadrže programe koji su namenski raspoređeni. Pročitajte više o svakom kako bi se upoznali šta se u njima nalazi.
+ </p>
+<p>Evo kratkog uputstva kako instalirati programe iz <strong>Bodhi
+Linux AppCenter-a</strong>: </p>
+
+<ul>
+	<li>
+    <h4>Nađite vaš program.</h4>
+  <p class="blacktext">Ako već znate koji program želite da instalirate, samo otkucajte ime tog programa u polju za pretragu gore desno.<br />
+Ako ne, jednostavno pregledajte kategorije koje se nalaze na početnoj stranici. </p>
+	</li>
+
+	<li>
+    <h4>Idite na stranicu.</h4>
+  <p class="blacktext">Bilo koji metod za traženje programa da izaberete, biće vam dostupan link.<br />
+Svaki program ima svoju stranicu sa opisom i slikom kako izgleda(screenshot). </p>
+	</li>
+
+	<li>
+    <h4>Instalirajte!</h4>
+  <p class="blacktext">
+Možete izabrati jedan od tri načina za instalaciju:</p>
+
+	<ul>
+		<li class="smalltext">Instaliraj Sada (Install Now)
+    <p class="blacktext">Ovo je najčešće korišćen metod za instalaciju programa iz <strong>Bodhi Linux AppCenter</strong>. Samo kliknite na "<em>Install
+Now</em>" dugme i unesite vašu lozinku(password) kada vam je instaler zatraži. To je to! Vaš program, kao i sve prateće komponente zajedno sa njim, će automatski biti instalirani. </p>
+		</li>
+
+		<li class="smalltext">Download
+    <p class="blacktext">Ovaj metod vam omogućava da skinete program zajedno sa svim pratećim komponentama, u jednom paketu. Veliki broj korisnika nalazi da je ovo skidanje paketa korisno na mašini sa brzim internetom i potom instaliraju taj paket
+				(program) na mašini koja ima sporu ili uopšte nema internet vezu.
+		<br /><br />
+Kompletno uputstvo ovog metoda nije ovde detaljno opisano, ali se može naći na <strong>Bodhi Linux AppCenter</strong> stranici.</p>
+		</li>
+
+		<li class="smalltext">Brza Instalacija (Quick Install)
+   <p class="blacktext">Ovaj metod radi brže od prethodna dva, ali se ne preporučuje ukoliko bar jedan paket već nije instaliran sa "Install Now" metodom, jer "Install Now" metod resinhronizuje fajlove index paketa iz njihovih izvora(source-a).
+				Da parafraziramo, "Install Now" ažurira(update) (ne upgrade) <em>sve</em> pakete na njihove najnovije verzije
+<span class="boldtext italictext">i</span>
+instalira izabrane pakete. "Quick Install" radi samo ovo poslednje.</p>
+		</li>
+	</ul>
+    </li>
+</ul>
+
+
+		<br /><br />
+<p>
+Linkovi(potrebna internet konekcija)
+		<br />
+<a class="normal" href="http://appcenter.bodhilinux.com/">
+The Bodhi Linux AppCenter
+</a>
+		<br />
+<a class="normal" href="http://appcenter.bodhilinux.com/pages/install_instructions">
+Kompletna uputstva za instaliranje u AppCenter-u
+</a>
+</p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Synaptic Package Manager</h2>
+
+<p> 
+<strong>Synaptic Package Manager</strong>, zajednički za sve distribucije bazirane na
+<strong>Debian GNU/Linux</strong> 
+, je standardno(default) instaliran u
+<strong>Bodhi Linux-u.</strong> 
+ Da biste ga pokrenuli, idite na
+<em><small>Main Menu>Applications>Preferences>Synaptic Package Manager</small></em>.
+</p>
+<p>Sa
+<strong>Synaptic Package Manager-om</strong>, 
+imate pristup svim programima iz 
+<strong>Bodhi Linux</strong> 
+<em>i</em>
+<strong>Ubuntu 12.04</strong> 
+skladištima programa(repository). (Repository je server(i) gde se nalaze programi koji su vam dostupni za instalaciju).</p>
+<p>Molimo pogledajte stranicu <strong>Bodhi Linux Doc Wiki</strong> za kompletno uputstvo o korišćenju <strong>Synaptic Package Manager-a.</strong></p>
+<p>Linkovi(potreban internet):<br />
+<a class="normal" href="http://wiki.bodhilinux.com/doku.php">The Bodhi Linux Doc Wiki</a><br />
+<a class="normal" href="http://wiki.bodhilinux.com/doku.php?id=synaptic_package_manager">Synaptic
+on the Doc Wiki</a></p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="green ninetywidth center">
+<h2 id="apt-get">apt-get &amp; dpkg (napredan)</h2>
+<p>Komandno-linijski (terminalski) alat <code>apt-get</code> and <code>dpkg</code>
+su "backend" u odnosu na gore pomenute metode za instalaciju programa. 
+	Napredni korisnici mogu slobodno da koriste ove alate iz terminala, ali njihova upotreba je van okvira ovog dokumenta.
+</p>
+
+U terminalu,
+<!--
+<span class="boldtext">Terminology</span>(or any
+other
+terminal), 
+-->
+molimo pokrenite:
+<br />
+
+<small class="boldtext greentext">
+<code>man apt-get</code>
+		<br />
+ili
+		<br />
+<code>man dpkg</code>
+</small>
+			
+<br />
+za uputstva o ovim komandama.<br />
+<p>Instalacija iz izvornog koda(source code) je takođe na raspolaganju naprednim korisnicima.</p>
+<div id="lp">&nbsp;</div>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Primer. Instalacija Jezičkog Paketa</h2>
+
+<p class="smalltext">
+<code>Primedba:</code> Ovi primeri samo pokrivaju <em>instalaciju</em>
+jezičkog paketa. Da promenite jezik sistema u jezički paket koji ste upravo instalirali, idite 
+<a class="normal" href="quickfaq.html#cl" >ovde</a>.</p>
+
+<p>Da instalirate jezički paket koristeći <b>Bodhi Linux AppCenter</b>,
+samo idite na <small><em>Main Menu>Bodhi Linux>Add Software</em></small>.
+Ovo će otvoriti vaš default web browser
+<small>(<b>Midori</b> na svežoj Bodhi instalaciji)</small>
+na <b>Appcenter</b>'s web stranici. Sada, klizite dole do <em>Extra</em>
+sekcije. Tamo ćete videti 
+<a class="normal" href="http://appcenter.bodhilinux.com/software/showL2/Language_Packs"><u>Language Packs</u></a>. 
+Kliknite da bi videli dostupne jezičke pakete koje Bodhi trenutno podržava. Nakon što kliknete na onaj koji želite, samo koristite jedan od tri metoda koji su gore opisani da ga instalirate, bilo da je to <em>Install Now</em>, <em>Download</em>, or <em>Quick Install</em>.
+</p><br /><hr /><br />
+<p>
+Da instalirate jezički paket uz pomoć
+<strong>Synaptic Package Manager-a</strong>, idite na 
+<small><em>Main Menu>Applications>Preferences>Synaptic Package Manager</em></small>.
+Zatražiće vam lozinku(password).Ukucajte je, i pritisnite Enter.
+Kada se otvori, kliknite <em>Reload</em> dugme. 
+Ovo će ažurirati sve pakete na njihove poslednje(najnovije) verzije tako da pakete koje instalirate budu na svojim najnovijim verzijama. Kada to završite, potražite "bodhi-language" koristeći polje za pretragu na vrhu prozora. Ovo će prikazati dostupne bodhi-language pakete.
+Desni klik na onaj koji želite i obeležite(selektujte) 
+<em>Mark for Installation (Obeleži za Instalaciju)</em>. Zatim kliknite <em>Apply</em>
+dugme. Iskočiće vam prozor koji vam prikazuje šta će biti instalirano, koliko mesta će zauzeti, i tražiće da kliknete <em>Apply</em> dugme
+da bi potvrdili instalaciju izabranog jezičkog paketa. Kada to kliknete, počeće instalacija paketa i obavestiće vas kada se završi.
+</p><br /><hr /><br />
+<p>
+Da instalirate jezički paket koristeći<strong>apt-get</strong> komandu, 
+moraćete da znate tačno ime paketa koji želite da instalirate.
+Ako znate kako se zove, dobro za vas, ali ćemo bez obzira na to pokazati kako da pronađete njegovo ime:
+</p>
+<p>
+<h3>Da nađete ime paketa:</h3>
+<ol>
+<li>
+Otvorite LXTerminal, Bodhi Linux-ov default(standardni) terminal, sa 
+<small><em>Main Menu>Applications>Accessories</em></small>.
+<br /><br /></li>
+<li>
+Koristite komandu: <code>apt-cache search "[keywords]"</code>.<br /><br />U ovom slučaju, keywords(ključne reči) će biti "bodhi language".<br /><br />To bi trebalo ovako da izgleda: 
+<code>apt-cache search "bodhi language"</code>.
+<br /><br /></li>
+<li>
+Jezički paketi će biti vidljivi, imena i sve. Nemojte još zatvarati terminal.
+<br /><br /></li>
+</ol>
+<h3>Da instalirate paket:</h3>
+<ol>
+<li>
+U otvorenom prozora LXTerminala, ukucajte komandu: <code>sudo apt-get install -y [package-name]</code>.<br /><br />U ovom primeru, ime paketa će biti bodhi-language-fr (franucski jezički paket).<br /><br />To bi trebalo ovako da izgleda: 
+<code>sudo apt-get update && sudo apt-get install -y bodhi-language-fr</code>.
+<br /><br /></li>
+<li>
+Kada pritisnete Enter, na ekranu će da se pokrene lavina teksta opisujući šta komanda radi. Moraćete malo da sačekate.
+<br /><br /></li>
+<li>
+Kada vam ponovo bude izašao user@computer prompt, instalacija je završena.
+<br /><br /></li>
+</ol>
+</p>
+</div>
+</div>
+
+
+
+</div>
+<!-- End of Body -->
+
+
+<!-- Nav Table -->
+<div class="navbottomcontainer"><br />
+<hr />
+
+	<div class="navbottomtop">
+		<div class="bottom lefttext">Prethodna:</div>
+		<div class="bottom centertext"> Sadržaj:</div>
+		<div class="bottom righttext">Sledeća:</div>
+    </div>
+    <div class="navbottombottom">
+		<div class="bottom lefttext"><a target="_parent" href="internet.html">Povezivanje na Internet</a></div>
+		<div class="bottom centertext"><a target="_parent" href="index.html">Index</a></div>
+		<div class="bottom righttext"><a target="_parent" href="e17.html">Osnove E17</a></div>
+    </div>
+
+<br /><br />
+</div>
+<!-- End of Nav Table -->
+
+</div>
+
+</body>
+</html>
