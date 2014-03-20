@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+ <meta charset="utf-8" />
+
+  <title>Der Bodhi Linux Schnellstart - Installieren von Programmen</title>
+
+	<script src="../QuickStart_files/modernizr.js"></script><!--[if lt IE 9]><script src="../QuickStart_files/html5shiv/dist/html5shiv.js"></script><![endif]-->
+
+  <link href="../QuickStart_files/qs.css" rel="stylesheet" type="text/css" media="screen" /><!--[if IE]><link href="../QuickStart_files/ie.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->  
+  <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png" />
+
+</head>
+<body>
+
+<header class="gradient">
+		<a class="img"  href="http://www.bodhilinux.com/" target="_blank"><img class="navbodhi" src="../images/bodhileaf.png" alt="(Bodhi Linux Logo)" /></a>
+		<a class="img"  href="http://www.enlightenment.org" target="_blank"><img class="nave17" src="../images/elogo.png" alt="(e17 Logo)" /></a>
+		<nav>
+			<ul id="nav" class="navonlowwidth">
+				<li class="qsindex"><a class="mobile" target="_parent"  href="index.html">Inhalt</a><a class="nav" target="_parent"  href="index.html">Inhalt</a>
+					
+				</li>
+				<li><a class="mobile" target="_parent"  href="enlightenment.html">Enlightenment</a><a class="nav" target="_parent"  href="#">Wo Du Anfängst</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="internet.html">Eine Verbindung zum Internet Herstellen</a></li>
+						<li><a class="dropdown" target="_parent"  href="software.html">Programme Installieren</a></li>					
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="getting_started.html">Wo Du Anfängst</a><a class="nav" target="_parent"  href="#">Enlightenment</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="e17.html">E17 Grundlagen</a></li>
+						<li><a class="dropdown" target="_parent"  href="everything.html">Wie Du Everything Benutzt</a></li>
+						<li><a class="dropdown" target="_parent"  href="../../e17guide/e17guideEN/index.html">Der Bodhi Leitfaden zu Enlightenment</a></li>
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="appendix.html">Kolophon</a><a class="nav" target="_parent"  href="#">Mehr Informationen</a>
+					<ul>
+						<li><a class="dropdown" target="_parent"  href="quickfaq.html">Ein Paar Fragen</a></li>
+						<li><a class="dropdown" target="_parent"  href="software_requests.html">Häufig Benötigte Sachen</a></li>
+						<li><a class="dropdown" target="_parent"  href="resources.html">Resourcen</a></li>
+					</ul>
+				</li>
+				<li><a class="mobile" target="_parent"  href="moreinfo.html">Mehr Informationen</a><a class="nav" target="_parent"  href="appendix.html">Kolophon</a>
+
+				</li>
+			</ul>
+		</nav>
+</header>
+
+
+
+<div class="body">
+
+
+<!-- Header -->
+<div class="header">
+
+	<a class="img" href="index.html"><img src="../images/bodhilinux.png" alt="(Bodhi Linux Logo)" class="bodhiheader floatr imageonlowwidth" /></a>
+
+	<div class="h1"><h1>Installieren von Programmen</h1></div>
+
+	<br />
+
+	<hr />
+
+</div>
+<!-- End of Header -->
+
+<!-- Body -->
+<div class="content">
+	
+<p class="underheader">
+[Klicke auf Bilder zum Vergrößern]
+</p>
+
+<div class="contentcontainer ninetywidth center">
+<p>In der Regel benötigst Du eine Internetverbindung um Programme unter <strong>Bodhi Linux</strong> zu installieren.<br /><br />
+Folge diesem <a class="normal" href="internet.html">Link</a> wenn dies noch nicht der Fall sein sollte.</p> 
+</div>
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Das System auf dem neuesten Stand bringen</h2>
+<p>Ein System Upgrade bringt alle installierten Programme auf den neuesten Stand. Es gibt mehrere Möglickeiten dies zu erreichen aber wir besprechen hier nur die einfachste.<br /><br />Im Terminal das man unter <span class="smalltext">Hauptmenü>Anwendungen>Zubehör</span> (<span class="smalltext">Main Menu>Applications>Accessories</span>) findet kopiert man dazu folgenden Code:<br /><br />
+<span class="greentext boldtext largelh"><code>sudo apt-get update && sudo apt-get -y dist-upgrade</code></span><br /><br />
+<span class="smallertext"><code>
+Notiz:</code>&nbsp;Dieser Befehl nutzt <a class="normal" href="#apt-get">apt-get</a> und kann jederzeit wieder verwendet werden wenn Du das System auf den neuesten Stand bringen willst.</span></p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="green ninetywidth center">
+<h2>Bodhi Linux AppCenter</h2>
+<a class="img normalpicture" href="../images/appcenter.png">
+	<img src="../images/appcenter.png" alt="(Bodhi Appcenter Website)" class="fiftywidth center changeonlowwidth" />
+</a>
+<p class="clear">Das <strong>Bodhi Linux</strong> Team hat mit dem AppCenter eine einfache und schnelle Möglichkeit geschaffen häufig verwendete Programme zu installieren. Man findet hier keine komplette Liste aller verfügbaren Programme die nan unter <strong>Bodhi Linux</strong> nutzen kann, sondern eine nach Kategorien geordnete Sammlung die wir als „die besten für eine Aufgabe“ ansehen.</p>
+<p>
+Außerdem stellt das Bodhi Linux AppCenter auch komplette Sätze von Programmen zur verfügung die ein ganzes Nutzungsszenario abdecken können. Lies dir die Beschreibungen durch und finde heraus was sie zu bieten haben! 
+</p>
+
+<p>
+Hier ist eine schnelle Anleitung die zeigt wie einfach man mit dem AppCenter Programme installieren kann: 
+</p>
+
+
+<ul>
+	<li>
+    <h4>Finde dein Programm.</h4>
+  <p class="blacktext">Wenn Du bereits weißt wie das Programm heißt das Du installieren willst kannst Du den Namen einfach in die Suchleiste oben rechts eingeben. .<br />
+Falls nicht, navigier einfach durch die Kategorien der Hauptseite</p>
+	</li>
+
+	<li>
+    <h4>Gehe zur Seite.</h4>
+  <p class="blacktext">Beide Suchmethoden liefern dir einen oder mehere Links.<br />
+Jedes Programm verfügt über seine eigene Seite mit Beschreibung und Bildschirmfoto. </p>
+	</li>
+
+	<li>
+    <h4>Installiere es!</h4>
+  <p class="blacktext">
+Es gibt drei Methoden der Installation zur Auswahl:</p>
+
+	<ul>
+		<li class="smalltext">Install Now
+    <p class="blacktext">Die am häufigsten benutzte Installationsmethode im <strong>Bodhi Linux AppCenter</strong>. Klicke einfach auf den „<em>Install
+Now</em>“ Knopf und gib dein Passwort ein. Fertig! Das Programm wird nun automatisch heruntergeladen und installiert und kann gestartet werden sobald sich das Installationsfenster geschlossen hat. </p>
+		</li>
+
+		<li class="smalltext">Download
+    <p class="blacktext">Dieser Schaltknopf erlaubt dir das Herunterladen des Programmes sowie all seine Abhängigkeiten in einer einzigen Datei. Viele Nutzer finden dies hilfreich um z.B. von einem Computer mit schneller Internetanbindung Programme für einen Computer mit langsamer oder fehlender Anbindung zu Laden.
+		<br /><br />
+Anweisungen wie man diese Dateien dann benutzt werden hier nicht gegeben, sind aber im <strong>Bodhi Linux AppCenter.</strong> nachschlagbar.</p>
+		</li>
+
+		<li class="smalltext">Quick Install
+   <p class="blacktext">Diese Methode ist etwas schneller als das normale „<em>Install
+Now</em>“ sollte aber nur benutzt werden wenn zuvor die normale Methode oder eine Aktualisierung der Paketliste durchgeführt wurde. </p>
+		</li>
+	</ul>
+    </li>
+</ul>
+
+
+		<br /><br />
+<p>
+Links 
+		<br />
+<a class="normal" href="http://appcenter.bodhilinux.com/">
+Das Bodhi Linux AppCenter
+</a>
+		<br />
+<a class="normal" href="http://appcenter.bodhilinux.com/pages/install_instructions">
+Vollständige Anleitung für das Appcenter
+</a>
+</p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Synaptic Paketverwaltung</h2>
+
+<p>Die
+<strong>Synaptic Paketverwaltung</strong>, verbreitet bei vielen Debian GNU/Linux Basierten Distributionen ist bei <strong>Bodhi Linux</strong> Standardmässig installiert. Man findet sie im <em><small>Hauptmenü</small></em> unter <em><small>Programme → Einstellungen → Synaptic (Applications → Preferences → Synaptic Package Manager)</small></em>.
+</p>
+<p>Mit
+<strong>Synaptic</strong>,  hast Du zugriff auf alle Pakete in den <strong>Bodhi Linux</strong> <em>und</em> Ubuntu 12.04 Repositories. (Eine Repositorie, auch Repo genannt, ist ein Speicher im Internet in dem Linux Distributionen ihre Programmpakete für dich zum installieren bereitstellen)
+</p><p>
+Bitte lies dir das Bodhi Linux Doc Wiki durch um eine komplette übersicht darüber zu bekommen wie man Synaptic verwendet.</p>
+<p>Links:<br />
+<a class="normal" href="http://wiki.bodhilinux.com/doku.php">Das Bodhi Linux Doc Wiki</a><br />
+<a class="normal" href="http://wiki.bodhilinux.com/doku.php?id=synaptic_package_manager">Synaptic im Wiki</a></p>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="green ninetywidth center">
+<h2 id="apt-get">apt-get & dpkg (Fortgeschritten)</h2>
+<p>Die Kommandozeilenprogramme <code>apt-get</code> und <code>dpkg</code> sind die zugrundeliegenden Programme für die oben beschriebenen Installationsmethoden. Fortgeschrittene Benutzer können hier gerne einen Blick drauf werfen, im Doc Wiki findet man die passende Anleitung dazu.
+</p>
+
+Für eine sofort Anleitung kannst Du im Terminal
+<!--
+<span class="boldtext">Terminology</span>(or any
+other
+terminal), 
+-->
+<br />
+
+<small class="boldtext greentext">
+<code>man apt-get</code>
+		<br />
+</small>
+oder
+<small class="boldtext greentext">
+		<br />
+<code>man dpkg</code>
+</small>
+			
+<br />
+eingeben.<br />
+<p>Außerdem ist die Installation aus dem Quellcode für fortgeschrittene Nutzer auch leicht zugänglich.</p>
+<div id="lp">&nbsp;</div>
+</div>
+</div>
+
+
+
+<div class="contentcontainer">
+<div class="orange ninetywidth center">
+<h2>Beispiel: Installieren von Sprachpaketen</h2>
+
+<p class="smalltext">
+<code>Notiz:</code> Dieses Beispiel zeigt nur das <em>installieren</em> der Sprachpakete. Wie Du  das System auch auf die gerade Installierte Sprache umstellst zeigt eine eigene <a class="normal" href="quickfaq.html#cl" >Seite</a>.</p>
+
+<p>Um das Paket mit dem <b>Bodhi Linux AppCenter</b> zu installieren wählst Du einfach <small><em>Hauptmenü>Bodhi Linux>Add Software</em></small>. Dies wird den Standartbrowser <small>(<b>Midori</b> wenn Du es nicht geändert hast)</small> mit der Addresse unseres <b>Appcenters</b> öffnen. Gehe runter bis zur Kategorie "<em>Extra</em>" und klicke auf den Eintrag <a class="normal" href="http://appcenter.bodhilinux.com/software/showL2/Language_Packs"><u>Language Packs</u></a>. Nun siehst Du eine Liste der Sprachen die wir momentan zur verfügung stellen. Wähle hier die Gewünschte Sprache aus ("Language Pack DE" in deinem Fall) und installiere sie mithilfe der oben erklärten Methoden <em>Install Now</em>, <em>Download</em>, oder <em>Quick Install</em>.
+</p><br /><hr /><br />
+<p>
+Um das Sprachpaket mithilfe des <strong>Synaptic Paket Managers</strong> zu installieren startest Du <small><em>Hauptmenü>Anwendungen>Einstellungen>Synaptic Paket Manager</em></small> (<small><em>Main Menu>Applications>Preferences>Synaptic Package Manager</em></small>). Danach musste Du dein Password eingeben und bestätigen. Bei der ersten Benutzung von Synaptic solltest Du den <em>Reload</em> Knopf oben links in der Werkzeugleiste drücken, dies sorgt dafür das die angezeigte Paketliste auch auf dem neuesten Stand ist. Nun kannst Du mithilfe des Suchfeldes das sich ebenfalls in dieser Werkzeugleiste befindet nach dem gewünschten Sprachpaket suchen, tippe dazu "bodhi language" ein und drücke die Eingabetaste. In der nun gezeigten Liste wählst Du den Eintrag der mit "de" endet, mache einen Rechtsklick in die Zeile oder einen Linksklick in das Kontrollkästchen und wähle <em>Mark for Installation</em> im danach erscheinenden Menü. Danach zeigt dir das Programm alle zusätzlichen Pakete an die benötigt werden damit deine Auswahl installiert werden kann, bestätige dies mit dem <em>Mark</em> Schaltknopf. Nun musst Du das Ganze nurnoch mit dem <em>Apply</em> Knopf in der Werkzeugleiste bestätigen, hier wird dir dann nochmal eine Zusammenfassung von dem gezeigt was heruntergeladen und installiert werden muss. Auch hier immer schön <em>Apply</em> klicken damit die Installation startet.
+</p><br /><hr /><br />
+<p>Um das Sprachpaket mithilfe von <strong>apt-get</strong> zu installieren musst Du den genauen Namen kennen. Also werden wir erstmal zeigen wie Du ihn herausfinden kannst und dann erst zur eigentlichen Installation kommen:
+</p>
+<p>
+<h3>Ein Paket Suchen:</h3>
+<ol>
+<li>
+Öffne LXTerminal, Bodhis Standard Terminal, unter 
+<small><em>Hauptmenü>Anwendugen>Zubehör</em></small>(<small><em>Main Menu>Applications>Accessories</em></small>).
+<br /><br /></li>
+<li>
+Benutze diesen Befehl: <code>apt-cache search "[Suchwort]"</code>.<br /><br />In diesem Fall sollte "bodhi language" das Suchwort sein.<br /><br />Also: 
+<code>apt-cache search "bodhi language"</code>.
+<br /><br /></li>
+<li>
+Die Liste der Sprachpakete sollte nun erscheinen. Lass das Fenster geöffnet!
+<br /><br /></li>
+</ol>
+<h3>Ein Paket installieren:</h3>
+<ol>
+<li>
+In LXTerminal benutzt Du nun diese Befehle: <code>sudo apt-get install -y [Paketname]</code>.<br /><br />Für uns wäre das nun das Paket "bodhi-language-de". Das zusätzliche "-y" sorgt übrigens dafür das keine "Sind Sie wirklich sicher?" Frage gestellt wird. <br /><br />Also: 
+<code>sudo apt-get install -y bodhi-language-de</code>. 
+<br /><br /></li>
+<li>
+Nachdem Du die Eingabetaste gedrückt hast wird Dir ein Schwall von Text angezeigt der angibt was nun passiert. Das muss man allerdingd nicht alles verstehen.
+<br /><br /></li>
+<li>
+Sobald die letzte Zeile wieder "Nutzername@Rechner" anzeigt ist der Prozess beendet.
+<br /><br /></li>
+</ol>
+</p>
+</div>
+</div>
+
+
+
+</div>
+<!-- End of Body -->
+
+
+<!-- Nav Table -->
+<div class="navbottomcontainer"><br />
+<hr />
+
+	<div class="navbottomtop">
+		<div class="bottom lefttext">Vorher:</div>
+		<div class="bottom centertext">(╯°o°)╯ ︵ ┻━┻</div>
+		<div class="bottom righttext">Folgt:</div>
+    </div>
+    <div class="navbottombottom">
+		<div class="bottom lefttext"><a target="_parent" href="internet.html">Mit dem Internet verbinden</a></div>
+		<div class="bottom centertext"><a target="_parent" href="index.html">Inhalt</a></div>
+		<div class="bottom righttext"><a target="_parent" href="e17.html">E17 Grundlagen</a></div>
+    </div>
+
+<br /><br />
+</div>
+<!-- End of Nav Table -->
+
+</div>
+
+</body>
+</html>
