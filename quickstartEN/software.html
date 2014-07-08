@@ -84,20 +84,40 @@ Internet</a>.</p>
 
 <div class="contentcontainer">
 <div class="orange ninetywidth center">
-<h2>Updating System</h2>
-<p>The first thing to do after establishing an internet connection is to update your system.<br /><br /> There are multiple methods to achieve this, but
-the simplest method can be done by opening the LXTerminal application, located in <span class="smalltext">Main Menu>Applications>Accessories</span>, 
-and running this command:<br /><br />
-<span class="greentext boldtext largelh"><code>sudo apt-get update && sudo apt-get -y dist-upgrade</code></span><br /><br />
+<h2>Updating System via eepDater</h2>
+<p>The first thing to do after establishing an internet connection is to update your system.<br /><br /> 
+There are multiple methods to achieve this, but
+the simplest method is by using the new eepDater application and widget, located in the ibar. If updates are avialable, you will see this icon:<br /><br />
+<span class="normalpicture"><img src="../images/eepdaterUpdates.png" alt="(Example of eepDater.)" class="tenwidth left tallimageonlowwidth" /></span>
+<br />
+If your system is fully updated, you'll see this icon:
+<span class="normalpicture"><img src="../images/eepdaterUpdated.png" alt="(Example of eepDater.)" class="tenwidth left tallimageonlowwidth" /></span><br /><br />
 <span class="smallertext"><code>
-Note:</code>&nbsp;This command relies on the <a class="normal" href="#apt-get">apt-get</a> command-line tool and can be done any time you want to update your system(apps & all) to the newest versions possible.</span></p>
+Note:</code>by watching this icon for updates, you can keep your system at keep your system (apps & all) at the newest vesrions possible.</span>
+</p>
+<p>
+A simple Left-Click on the icon will show you the list of updates that are avialable for your system:<br /><br />
+<img src="../images/eepDaterList.png" alt="(Example of Updates Available)" class="thirtywidth center changeonlowwidth" />
+To install the updates, click on the <strong>Run the package manager</strong> button. esudo will launch asking you for your password. Once permission from esudo is complete, you see another list of all avialable updates:
+<img src="../images/eepDaterListWindow.png" alt="(Example of Updates Available)" class="thirtywidth center changeonlowwidth" />
+<br /><br />
+Here you have the option of selecting individual packages to update by selecting the checkbox under the "upgrade" collumn or you can quickly select all packages by clicking on the <strong>Select All</strong> button at the top. Once packages have been selected, click on the <strong>Apply</strong> button and the system will begin updating your system. When complete, you will see the window refesh and be left with an empty window:
+<img src="../images/eepDaterListWindow.png" alt="(Example of Updates Available)" class="thirtywidth center changeonlowwidth" />
+</p></div></div>
+
+<div class="contentcontainer">
+<div class="green ninetywidth center">
+<h2>Updating System via Terminology</h2>
+While it is no longer recommended that users update via the command line, it is still possible to do so by running the following command in Terminology:
+<span class="greentext boldtext largelh"><code>sudo apt-get update && sudo apt-get -y dist-upgrade</code></span><br /><br />
+</p>
 </div>
 </div>
 
 
 
 <div class="contentcontainer">
-<div class="green ninetywidth center">
+<div class="orange ninetywidth center">
 <h2>Bodhi Linux AppCenter</h2>
 <a class="img normalpicture" href="../images/appcenter.png">
 	<img src="../images/appcenter.png" alt="(Bodhi Appcenter Website)" class="fiftywidth center changeonlowwidth" />
@@ -191,7 +211,7 @@ Complete Installation Instructions at the AppCenter
 
 
 <div class="contentcontainer">
-<div class="orange ninetywidth center">
+<div class="green ninetywidth center">
 <h2>Synaptic Package Manager</h2>
 
 <p>The 
@@ -229,7 +249,7 @@ on the Doc Wiki</a></p>
 
 
 <div class="contentcontainer">
-<div class="green ninetywidth center">
+<div class="orange ninetywidth center">
 <h2 id="apt-get">apt-get &amp; dpkg (advanced)</h2>
 <p>The command-line tools <code>apt-get</code> and <code>dpkg</code>
 are the "backend" to the above mentioned methods of installing
@@ -265,7 +285,7 @@ advanced users, as well.</p>
 
 
 <div class="contentcontainer">
-<div class="orange ninetywidth center">
+<div class="green ninetywidth center">
 <h2>Ex. Installing Language Packs</h2>
 
 <p class="smalltext">
@@ -311,7 +331,7 @@ how to find out its name, regardless:
 <h3>To find a package's name:</h3>
 <ol>
 <li>
-Open LXTerminal, Bodhi Linux's default terminal, at 
+Open Terminology, Bodhi Linux's default terminal, at 
 <small><em>Main Menu>Applications>Accessories</em></small>.
 <br /><br /></li>
 <li>
@@ -326,7 +346,7 @@ The language packs will be visible, names and all. Do not close the terminal jus
 <h3>To install the package:</h3>
 <ol>
 <li>
-In the open LXTerminal window, use the command: <code>sudo apt-get install -y [package-name]</code>.<br /><br />For this example,
+In the open Terminology window, use the command: <code>sudo apt-get install -y [package-name]</code>.<br /><br />For this example,
 the package name will be bodhi-language-fr (french language pack).<br /><br />It should look like this: 
 <code>sudo apt-get update && sudo apt-get install -y bodhi-language-fr</code>.
 <br /><br /></li>
@@ -359,7 +379,7 @@ When you are back to the user@computer prompt, the installation is complete.
     <div class="navbottombottom">
 		<div class="bottom lefttext"><a target="_parent" href="internet.html">Connection to the Internet</a></div>
 		<div class="bottom centertext"><a target="_parent" href="index.html">Index</a></div>
-		<div class="bottom righttext"><a target="_parent" href="e17.html">E17 Basics</a></div>
+		<div class="bottom righttext"><a target="_parent" href="e.html">Enlightenment Basics</a></div>
     </div>
 
 <br /><br />
